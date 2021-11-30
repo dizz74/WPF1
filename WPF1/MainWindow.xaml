@@ -9,17 +9,12 @@
         <Grid.Background>
             <RadialGradientBrush>
                 <GradientStop Color="Red" Offset="1"/>
-                <GradientStop Color="#FFFFF700"/>
+                <GradientStop Color="Orange"/>
             </RadialGradientBrush>
         </Grid.Background>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="290*"/>
-            <ColumnDefinition Width="159*"/>
-            <ColumnDefinition Width="45*"/>
-        </Grid.ColumnDefinitions>
-        <Button Content="=" Margin="10,10,0,0" Width="50" Height="68" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+        <Button Content="=" Margin="10,10,0,0" Width="60" Height="68" VerticalAlignment="Top" HorizontalAlignment="Left"/>
         <TextBlock  Margin="80,10,9.6,0" TextWrapping="Wrap" VerticalAlignment="Top" Background="White" Height="68" HorizontalAlignment="Stretch" FontSize="36" Grid.ColumnSpan="3"/>
-        <Grid Margin="10,90,134.74,10" Grid.ColumnSpan="2">
+        <Grid Margin="10,90,160,10" Grid.ColumnSpan="2">
             <Button Content="7" Width="90" Height="90" HorizontalAlignment="Left" VerticalAlignment="Top"/>
             <Button Content="8" Width="90" Height="90" HorizontalAlignment="Center" VerticalAlignment="Top"/>
             <Button Content="9" Width="90" Height="90" HorizontalAlignment="Right" VerticalAlignment="Top"/>
@@ -30,14 +25,13 @@
             <Button Content="2" Width="90" Height="90" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
             <Button Content="3" Width="90" Height="90" HorizontalAlignment="Right" VerticalAlignment="Bottom"/>
         </Grid>
-        <Grid Margin="60.4,90,9.6,10" Grid.Column="1" Grid.ColumnSpan="2">
-            <Button Content="/" Width="50" Height="90" HorizontalAlignment="Left" VerticalAlignment="Top"/>
-            <Button Content="*" Width="50" Height="90" HorizontalAlignment="Right" VerticalAlignment="Top"/>
-            <Button Content="+" Width="50" Height="90" HorizontalAlignment="Left" VerticalAlignment="Center"/>
-            <Button Content="-" Width="50" Height="90" HorizontalAlignment="Right" VerticalAlignment="Center"/>
-
-            <Button Content="0" Width="50" Height="90" HorizontalAlignment="Left" VerticalAlignment="Bottom"/>
-            <Button Content="," Width="50" Height="90" HorizontalAlignment="Right" VerticalAlignment="Bottom"/>
+        <Grid Margin="350,90,9.6,10" Grid.Column="1" Grid.ColumnSpan="2">
+            <Button Content="/" Width="60" Height="90" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <Button Content="*" Width="60" Height="90" HorizontalAlignment="Right" VerticalAlignment="Top"/>
+            <Button Content="+" Width="60" Height="90" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+            <Button Content="-" Width="60" Height="90" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+            <Button Content="0" Width="60" Height="90" HorizontalAlignment="Left" VerticalAlignment="Bottom"/>
+            <Button Content="," Width="60" Height="90" HorizontalAlignment="Right" VerticalAlignment="Bottom"/>
         </Grid>
     </Grid>
 </Window>
