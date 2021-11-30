@@ -4,7 +4,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d"
-        Title="Калькулятор" Height="450" Width="500" FontSize="24" FontWeight="Bold" BorderBrush="Red">
+        Title="Калькулятор" Height="430" Width="500" FontSize="24" FontWeight="Bold" BorderBrush="Red">
     <Grid>
         <Grid.Background>
             <RadialGradientBrush>
@@ -12,9 +12,9 @@
                 <GradientStop Color="Orange"/>
             </RadialGradientBrush>
         </Grid.Background>
-        <Button Content="=" Margin="10,10,0,0" Width="60" Height="68" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+        <Button Content="=" Margin="10,10,0,0" Width="60" Height="68" VerticalAlignment="Top" HorizontalAlignment="Left" FontSize="36"/>
         <TextBlock  Margin="80,10,9.6,0" TextWrapping="Wrap" VerticalAlignment="Top" Background="White" Height="68" HorizontalAlignment="Stretch" FontSize="36" Grid.ColumnSpan="3"/>
-        <Grid Margin="10,90,160,10" Grid.ColumnSpan="2">
+        <Grid Margin="10,90,180,10" Grid.ColumnSpan="2">
             <Button Content="7" Width="90" Height="90" HorizontalAlignment="Left" VerticalAlignment="Top"/>
             <Button Content="8" Width="90" Height="90" HorizontalAlignment="Center" VerticalAlignment="Top"/>
             <Button Content="9" Width="90" Height="90" HorizontalAlignment="Right" VerticalAlignment="Top"/>
